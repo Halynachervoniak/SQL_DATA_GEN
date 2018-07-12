@@ -1,4 +1,18 @@
 
+
+-- створення робочої таблиці
+CREATE TABLE TEST
+(id int not null IDENTITY (1,1),
+category nvarchar(20) not null,
+subcategory nvarchar(20) not null,
+subID int not null,
+catID int not null)
+GO
+
+
+
+
+
 -- http://www.cyberforum.ru/sql-server/thread891278.html
 
 declare
